@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  /* outline: 1px solid lime !important; */
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: bisque;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  border-radius: 15px;
+  border: 3px solid #121212;
+  padding-left: 1rem;
+  background-color: antiquewhite;
+
+}
+
+button{
+  height: 2em;
+  width: 2em;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.big-container  {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#inputField{
+  width: 40%;
+  height: 3rem;
+  border: 1px soild #212121;
+  outline: none;
+  font-size: 1rem;
+}
+
+
+
+.to-dos {
+  /* margin-top: 30px; */
+  margin: 25px auto;
+  width: 40%;
+}
+
+.paragraph-styling{
+  margin: 0;
+  cursor:pointer;
+  font-size: 20px;
+
+}
+  
